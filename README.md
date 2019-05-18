@@ -1,4 +1,4 @@
-Simple Express.js project with user Registration, Login and Authentication middleware.
+Simple Express.js project with user Registration, Login and Authentication middleware
 <br />
 request and token/req.body logger <br />
 request limit control<br /><br />
