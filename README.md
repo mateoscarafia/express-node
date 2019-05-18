@@ -8,7 +8,7 @@ http://localhost:3000/register <br />
 http://localhost:3000/login <br />
 http://localhost:3000/testtoken
 <br /><br />
-#Libraries included 
+#libraries included 
 <br /><br />
 express-rate-limit <br />
 logger-request <br />
