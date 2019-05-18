@@ -5,7 +5,7 @@ let bcrypt = require('bcrypt-nodejs');
 let jwt = require('../services/jwt');
 
 function testtoken(req, res) {
-    return res.status(200).send({ message: 'token is OK' })
+    return res.status(200).send({ message: 'Token is OK' })
 }
 
 function register(req, res) {
@@ -14,7 +14,7 @@ function register(req, res) {
     var user = new User();
 
     if (!params.email || !params.password) {
-        return res.status(200).send({ message: 'Envia todos los campos necesarios' })
+        return res.status(200).send({ message: 'Data missing' })
     }
 
     user.name = params.name;
@@ -31,20 +31,20 @@ function register(req, res) {
 
         ]
     }).exec((err, users) => {
-        if (err) return res.status(500).send({ message: 'Error en busqueda de usuarios' });
+        if (err) return res.status(500).send({ message: 'Error' });
 
         if (users && users.length >= 1) {
-            return res.status(200).send({ message: 'El usuario ya existe' })
+            return res.status(200).send({ message: 'User already exist' })
         } else {
 
             bcrypt.hash(params.password, null, null, (err, hash) => {
                 user.password = hash;
 
                 user.save((err, userStored) => {
-                    if (err) return res.status(500).send({ message: 'Error al guardar mensaje' });
+                    if (err) return res.status(500).send({ message: 'Error' });
 
                     return (userStored) ? res.status(200).send({ user: userStored })
-                        : res.status(404).send({ message: 'No se registro el usuario' })
+                        : res.status(404).send({ message: 'Error' })
 
                 })
             });

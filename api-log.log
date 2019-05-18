@@ -97,3 +97,12 @@
 {"ip":"::ffff:127.0.0.1","method":"GET","status":200,"url":"/testtoken","response":"38.55","level":"info","message":"logger-request","timestamp":"2019-05-18T22:39:23.338Z"}
 {"ip":"::ffff:127.0.0.1","method":"GET","status":200,"url":"/testtoken","response":"2.05","level":"info","message":"logger-request","timestamp":"2019-05-18T22:39:23.666Z"}
 {"ip":"::ffff:127.0.0.1","method":"GET","status":200,"url":"/testtoken","response":"0.79","level":"info","message":"logger-request","timestamp":"2019-05-18T22:39:24.037Z"}
+{"ip":"::ffff:127.0.0.1","method":"POST","status":200,"url":"/register","response":"306.85","level":"info","message":"logger-request","timestamp":"2019-05-18T23:02:29.384Z"}
+{"ip":"::ffff:127.0.0.1","method":"POST","status":200,"url":"/login","response":"287.81","level":"info","message":"logger-request","timestamp":"2019-05-18T23:02:41.523Z"}
+{"ip":"::ffff:127.0.0.1","method":"POST","status":200,"url":"/login","response":"266.47","level":"info","message":"logger-request","timestamp":"2019-05-18T23:02:43.256Z"}
+{"ip":"::ffff:127.0.0.1","method":"POST","status":200,"url":"/login","response":"241.62","level":"info","message":"logger-request","timestamp":"2019-05-18T23:02:43.601Z"}
+{"ip":"::ffff:127.0.0.1","method":"POST","status":200,"url":"/login","response":"264.13","level":"info","message":"logger-request","timestamp":"2019-05-18T23:02:44.193Z"}
+{"ip":"::ffff:127.0.0.1","method":"GET","status":200,"url":"/testtoken","response":"5.89","level":"info","message":"logger-request","timestamp":"2019-05-18T23:02:57.609Z"}
+{"ip":"::ffff:127.0.0.1","method":"GET","status":200,"url":"/testtoken","response":"1.04","level":"info","message":"logger-request","timestamp":"2019-05-18T23:02:58.359Z"}
+{"ip":"::ffff:127.0.0.1","method":"GET","status":200,"url":"/testtoken","response":"1.28","level":"info","message":"logger-request","timestamp":"2019-05-18T23:02:58.852Z"}
+{"ip":"::ffff:127.0.0.1","method":"GET","status":200,"url":"/testtoken","response":"1.77","level":"info","message":"logger-request","timestamp":"2019-05-18T23:02:59.290Z"}
