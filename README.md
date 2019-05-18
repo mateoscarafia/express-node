@@ -1,18 +1,18 @@
 Simple Express.js project with user Registration, Login and Authentication middleware.
-
-#routes
-
-http://localhost:3000/register
-http://localhost:3000/login
-http://localhost:3000/testtoken
-
-#Libraries included
-
-express-rate-limit
-logger-request
-cors
-body-parser
-moment
-jwt
+\r\r
+#routes \r
+\r\r
+http://localhost:3000/register \r
+http://localhost:3000/login \r
+http://localhost:3000/testtoken \r
+\r\r
+#Libraries included \r
+\r\r
+express-rate-limit \r
+logger-request \r
+cors \r
+body-parser \r
+moment \r
+jwt \r
 
 
