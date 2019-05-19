@@ -56,6 +56,10 @@ function register(req, res) {
 
 function login(req, res) {
     var params = req.body;
+    
+    if (!params.email || !params.password) {
+        return res.status(200).send({ message: 'Data missing' })
+    }
 
     var email = params.email;
     var password = params.password;
