@@ -1,7 +1,7 @@
 Simple Express.js project with user Registration, Login and Authentication middleware
 <br />
-request and token/req.body logger <br />
-request limit control<br /><br />
+Request and token/req.body logger <br />
+Request limit control<br /><br />
 #routes
 <br /><br />
 http://localhost:3000/register <br />
