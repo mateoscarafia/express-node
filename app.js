@@ -21,6 +21,10 @@ app.use(logger({
 app.use(bodyParser.urlencoded({extended:false}));
 app.use(bodyParser.json());
 
+//security layer
+const helmet = require('helmet')
+app.use(helmet())
+
 //cors
 var cors = require('cors')
 var corsOptions = {origin: 'http://34.554.55.78',optionsSuccessStatus: 200 }
