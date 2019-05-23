@@ -1,4 +1,3 @@
-'use strict'
 
 const Schema = require('../models/reserve')
 const mongoose = require('mongoose')

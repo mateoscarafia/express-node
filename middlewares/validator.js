@@ -1,5 +1,5 @@
-'use strict'
-var validator = require('validator');
+
+let validator = require('validator');
 
 
 exports.validator = async function (req, res, next) {

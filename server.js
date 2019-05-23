@@ -1,4 +1,3 @@
-'use strict'
 
 let mongoose = require('mongoose');
 let app = require('./app');

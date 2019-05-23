@@ -1,4 +1,3 @@
-'use strict'
 
 let express = require('express')
 let UserController = require('../controller/user')
