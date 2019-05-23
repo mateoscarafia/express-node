@@ -9,7 +9,7 @@ mongoose.Promise = global.Promise;
 mongoose.connect('mongodb://localhost:27017/mymodel', { useNewUrlParser: true })
     .then(() => {
         app.listen(port, () => {
-            console.log("server on port " + port);
+            console.log("listening on port " + port);
         })
     })
     .catch(err => console.log(err));

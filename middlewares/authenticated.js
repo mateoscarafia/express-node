@@ -2,7 +2,7 @@
 
 var jwt = require('jwt-simple');
 var moment = require('moment');
-var secret = 'clave_secreta_custom';
+var secret = 'FG78DFGDFGY9H98RGHEOGH';
 
 exports.ensureAuth = function (req, res, next) {
     if (!req.headers.authorization) {
@@ -18,6 +18,7 @@ exports.ensureAuth = function (req, res, next) {
                 message: 'Token expire'
             });
         }
+
 
     } catch (ex) {
         return res.status(404).send({

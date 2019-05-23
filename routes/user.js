@@ -2,13 +2,12 @@
 
 let express = require('express')
 let UserController = require('../controller/user')
+let validator = require('../middlewares/validator')
 
 let api = express.Router()
-let md_auth = require('../middlewares/authenticated')
-let log_req = require('../middlewares/log-req')
 
-api.post('/register', UserController.register)
-api.post('/login', UserController.login)
-api.get('/testtoken', md_auth.ensureAuth, log_req.logReqs, UserController.testtoken)
+api.post('/register', validator.validator, UserController.register)
+api.post('/login', validator.validator, UserController.login)
+
 
 module.exports = api
