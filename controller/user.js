@@ -1,4 +1,3 @@
-'use strict'
 
 const HttpStatus = require('../constants/HttpStatus')
 let User = require('../models/user');
