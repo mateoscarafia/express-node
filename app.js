@@ -76,6 +76,7 @@ var user_routes = require('./routes/user');
 app.use('/reserve', reserve_routes);
 app.use('/user', user_routes);
 
+//api routes listed
 const listEndpoints = require('express-list-endpoints')
 console.log("API endpoints: ", listEndpoints(app))
 
