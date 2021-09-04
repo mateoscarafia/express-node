@@ -1,6 +1,6 @@
 var HttpStatus = {};
 
-HttpStatus[exports.OK = 200] = "OK";
+HttpStatus[exports.OK = 200] = "OK-1";
 HttpStatus[exports.UNAUTHORIZED = 401] = "Unauthorized";
 HttpStatus[exports.ACCEPTED = 202] = "Accepted";
 HttpStatus[exports.BAD_GATEWAY = 502] = "Bad Gateway";
